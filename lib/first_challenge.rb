@@ -15,7 +15,7 @@ def first_challenge
 
 contacts.each { |character, data|
   data.each { |attribute, value|
-value.delete!  if == "strawberry" 
+value.delete!  if == "strawberry"
  }
 }
   contacts
